@@ -143,3 +143,107 @@ border-radius: 0 4px 4px 0;
   color: #94969f;
   
 }
+
+.menu_icon{
+  visibility: hidden;
+  font-size: 1rem;
+    cursor: pointer;
+    color: #666;
+    border: .1rem solid #666;
+    padding:.5em 1rem; 
+    border-radius: .3rem;
+  
+ 
+  
+}
+
+
+
+/* mobile screen*/
+
+@media only screen and (max-width:786px){
+
+  .nav_bar{
+   display: none;
+    
+  }
+
+  
+  .menu_icon{
+  visibility: visible;
+  font-size:0.5m;
+  
+  
+
+  }
+
+
+
+  .myntra_home{
+    width: 40px;
+    margin-right: 10px;
+  }
+
+
+  header{
+    height: 60px;
+  }
+
+
+  .search_bar{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    border-radius: 50px;
+  }
+
+
+ 
+
+
+  .action_icon{
+    margin: 0 7px;
+  }
+
+  .action_name{
+    font-size: 10px;
+  }
+}
+
+
+
+/* tablet screen*/
+
+@media only screen and (max-width:1215px){
+
+  
+
+
+  .nav_bar a{
+    font-size: 10px;
+      letter-spacing: .2px;
+     
+      font-weight: 500;
+  }
+
+  header{
+    height: 60px;
+  }
+
+  
+
+  .search_bar{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    border-radius: 50px;
+  }
+
+
+ 
+
+
+  
+}
